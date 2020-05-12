@@ -1,0 +1,29 @@
+body{
+    background-color: #DDD;
+    font-family: Calibri;
+  }
+.menu{
+    background-color: white;
+    border-radius: 30px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    color: green;
+}
+.title{
+    color: gray;
+    margin-bottom: 2px;
+    text-align: center;
+}
+.subtitle{
+    color: gray;
+    margin-top: 2px;
+    text-align: center;
+}
