@@ -1,14 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #DDD;
     font-family: Calibri;
-  }
+    font-size: 12px;
+}
+@media(min-width: 400px){
+    body{
+        font-size: 18px;
+    }
+}
+@media(min-width: 600px){
+    body{
+        font-size: 20px;
+    }
+}
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .menu{
     background-color: white;
-    border-radius: 30px;
+    position: fixed;
+    width: 100vw;
+    top: 0;
 }
 .menu ul{
     display: flex;
     justify-content: space-around;
+}
+.menu a{
+    display: block;
+    padding: 10px 20px;
+}
+li{
+    list-style: none;
 }
 a{
     text-decoration: none;
@@ -16,11 +48,14 @@ a{
 }
 a:hover{
     color: green;
+    font-weight: bold;
+    font-size: 20px;
 }
 .title{
     color: gray;
     margin-bottom: 2px;
     text-align: center;
+    font-size: 2em;
 }
 .subtitle{
     color: gray;
