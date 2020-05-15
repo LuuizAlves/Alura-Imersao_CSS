@@ -3,15 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
-    background-color: #DDD;
+    background-color: #310752;
     font-family: Calibri;
     font-size: 12px;
 }
-@media(min-width: 400px){
+@media(min-width: 500px){
     body{
         font-size: 18px;
+    }
+    .text-header p{
+        font-size: 10px;
     }
 }
 @media(min-width: 600px){
@@ -24,6 +26,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .menu{
     background-color: white;
@@ -47,18 +50,41 @@ a{
     color: gray;
 }
 a:hover{
-    color: green;
+    color:  #310752;
     font-weight: bold;
     font-size: 20px;
 }
+.img-perfil{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
 .title{
-    color: gray;
+    color: white;
     margin-bottom: 2px;
     text-align: center;
     font-size: 2em;
 }
 .subtitle{
-    color: gray;
+    color: white;
     margin-top: 2px;
     text-align: center;
+}
+.text-header p{
+    color: #ccc;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+@media(max-width: 500px){
+    .text-header p{
+        font-size: 10px;
+    }
+}
+.portfolio{
+    background-color: white;
+}
+.img-portfolio{
+    width: 200px;
+    height: 200px;
 }
