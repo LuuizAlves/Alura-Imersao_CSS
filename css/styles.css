@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #310752;
+    background-color: #343635;
     font-family: Calibri;
     font-size: 12px;
 }
@@ -29,10 +29,18 @@ header{
     flex-direction: column;
 }
 .menu{
-    background-color: white;
+    background-color: rgba(155, 160, 163, 0.7);
     position: fixed;
     width: 100vw;
     top: 0;
+}
+@media(max-width: 420px){
+    .menu{
+        background-color: rgba(155, 160, 163, 0.7);
+        position: fixed;
+        width: 100vw;
+        bottom: 0;
+    }
 }
 .menu ul{
     display: flex;
@@ -50,7 +58,7 @@ li{
 }
 a{
     text-decoration: none;
-    color: #0c6391;
+    color: whitesmoke;
 }
 .img-perfil{
     height: 200px;
@@ -84,6 +92,16 @@ a{
     height: 100vh;
     background-image: url(../images/techs.jpeg);
     background-size: cover;
+}
+.title-portfolio{
+    display: flex;
+    justify-content: center;
+    background-color: #00ed77;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 1em;
+    padding: 0.5em;
 }
 .img-portfolio{
     width: 200px;
