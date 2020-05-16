@@ -50,7 +50,7 @@ li{
 }
 a{
     text-decoration: none;
-    color: gray;
+    color: #0c6391;
 }
 .img-perfil{
     height: 200px;
@@ -82,7 +82,8 @@ a{
 .portfolio{
     padding: 2em;
     height: 100vh;
-    background-color:#412159;
+    background-image: url(../images/techs.jpeg);
+    background-size: cover;
 }
 .img-portfolio{
     width: 200px;
@@ -92,10 +93,8 @@ a{
     justify-content: center;
     padding: 2em;
     height: 100vh;
-    background-color: #310752;
-}
-.grid-contato{
-    text-align: center;
+    background-image: url(../images/contato.png);
+    background-size: cover;
 }
 .contato a{
     justify-content: center;
