@@ -42,17 +42,15 @@ header{
     display: block;
     padding: 10px 20px;
 }
+.menu a:hover{
+    font-weight: bold;
+}
 li{
     list-style: none;
 }
 a{
     text-decoration: none;
     color: gray;
-}
-a:hover{
-    color:  #310752;
-    font-weight: bold;
-    font-size: 20px;
 }
 .img-perfil{
     height: 200px;
@@ -82,9 +80,29 @@ a:hover{
     }
 }
 .portfolio{
-    background-color: white;
+    padding: 2em;
+    height: 100vh;
+    background-color:#412159;
 }
 .img-portfolio{
     width: 200px;
     height: 200px;
+}
+.contato{
+    justify-content: center;
+    padding: 2em;
+    height: 100vh;
+    background-color: #310752;
+}
+.grid-contato{
+    text-align: center;
+}
+.contato a{
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 6em;
+    transition: text-shadow 0.5s;
+}
+.contato a:hover{
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
 }
